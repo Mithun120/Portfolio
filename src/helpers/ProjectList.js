@@ -2,38 +2,32 @@ import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.webp";
 import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Hotel Room Booking",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React,Express.js,MongoDB",
+    git:"https://github.com/Mithun120/Booking-app"
   },
   {
-    name: "Ecommerce Website",
+    name: "Resume Builder",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "Django",
+    git:"https://github.com/Mithun120/resume_app"
   },
   {
-    name: "Spotify Clone",
+    name: "To-Do List",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React,Express.js,MongoDB",
+    git:"https://github.com/Mithun120/Todo"
   },
   {
-    name: "Social Media Website",
+    name: "Company Portfolio",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "React,Express.js,MongoDB",
+    git:"https://github.com/Mithun120/Consultancy"
   },
-  {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+  
 ];
