@@ -27,6 +27,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> About </Link>
+        <Link to= "/Contact">Contact</Link>
       </div>
     </div>
   );
