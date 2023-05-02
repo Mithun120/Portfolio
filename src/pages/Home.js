@@ -4,6 +4,7 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import { IconButton } from '@material-ui/core';
 import Button1 from "./Button";
+import Myimg from "../assets/Mithun.jpeg"
 function Home() {
   const redirectToUrl = (url) => {
     window.location.href = url;
@@ -12,6 +13,9 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
+        <div className="photo-container">
+          <img className="profile-photo" src={Myimg} alt="Profile" />
+        </div>
         <h2> Hi, This is Mithun</h2>
         <div className="prompt">
           <p>Web Developer</p>

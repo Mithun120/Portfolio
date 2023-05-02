@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-// npm i @emailjs/browser
+
 
 
 const Contact = () => {
