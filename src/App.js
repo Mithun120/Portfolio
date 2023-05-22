@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import Contact from "./pages/Contact";
 function App() {
-  return (
+  return (<>
     <div className="App">
       <Router>
         <Navbar />
@@ -22,7 +22,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </div>
+    </div></>
   );
 }
 

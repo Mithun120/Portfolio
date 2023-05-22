@@ -27,7 +27,7 @@ export const ProjectList = [
     name: "Company Portfolio",
     image: Proj4,
     skills: "React,Express.js,MongoDB",
-    git:"https://github.com/Mithun120/Consultancy"
+    git:"https://github.com/Mithun120/Vox-System"
   },
   
 ];
