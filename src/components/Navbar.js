@@ -21,8 +21,8 @@ function Navbar() {
           }}
         >
           <ReorderIcon />
-        </button>
-      </div>
+        </button> 
+       </div>
       <div className="links">
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
