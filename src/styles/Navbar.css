@@ -19,6 +19,9 @@
   margin: 20px;
   font-size: 25px;
 }
+.navbar li:hover{
+  color:yellow
+}
 
 .toggleButton {
   width: 100%;
