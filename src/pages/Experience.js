@@ -9,8 +9,7 @@ import '../styles/Experience.css'
 function Experience() {
   return (
     <div className="experience">
-      <h3>Contact : 7339590268</h3>
-      <h3>Mail : mithunmoorthi20@gmail.com</h3>
+      
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

@@ -26,7 +26,10 @@ const Contact = () => {
       });
   };
 
-  return (
+  return (<>
+ <h3 style={{ color: '#21325e', fontSize: '18px', marginBottom: '10px' }}>Contact: 7339590268</h3>
+  <h3 style={{ color: '#21325e', fontSize: '18px' }}>Mail: mithunmoorthi20@gmail.com</h3>
+
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
@@ -38,6 +41,7 @@ const Contact = () => {
         <input type="submit" value="Send" />
       </form>
     </StyledContactForm>
+    </>
   );
 };
 

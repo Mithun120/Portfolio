@@ -22,7 +22,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .footer svg {
-    font-size: 50px;
+  .footer {
+    margin-top: 100px;
+  }
+
+  .socialMedia svg {
+    font-size: 40px;
+    margin: 10px;
   }
 }
